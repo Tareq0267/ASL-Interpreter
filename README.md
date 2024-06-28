@@ -1,6 +1,3 @@
-Sure! Here's a `README.md` file for your project:
-
-```markdown
 # Hand Detection and Text-to-Speech Project
 
 This project is developed for the subject Autonomous Robot by Dr. Zati. The aim is to create a system that detects hand gestures using a webcam and provides audio feedback using text-to-speech.
@@ -117,12 +114,3 @@ Muhammad Tareq Adam Bin Ellias (U2001228)
 Muhammad Adam Malique bin Zainal (U2102866)
 Liu Yuxiang (S2193853)
 Chu Wei Ming (U2102762)
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Feel free to modify the sections as per your requirements and add any additional information you think is necessary.
