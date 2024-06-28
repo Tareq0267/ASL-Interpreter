@@ -1,0 +1,13 @@
+<launch>
+  <!-- Launch the usb_cam node in the base conda environment -->
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" launch-prefix="bash -c 'source /path/to/miniconda3/etc/profile.d/conda.sh && conda activate base && exec '">
+    <param name="video_device" value="/dev/video0"/>
+    <param name="image_width" value="640"/>
+    <param name="image_height" value="480"/>
+    <param name="pixel_format" value="mjpeg"/>
+    <param name="camera_frame_id" value="usb_cam"/>
+  </node>
+
+  <!-- Launch the hand detection node in the env38 conda environment -->
+  <node name="hand_detection_node" pkg="hand_detection" type="hand_detection_node.py" output="screen" launch-prefix="bash -c 'source /path/to/miniconda3/etc/profile.d/conda.sh && conda activate env38 && exec '"/>
+</launch>

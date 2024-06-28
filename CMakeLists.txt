@@ -1,0 +1,8 @@
+catkin_install_python(PROGRAMS
+  scripts/hand_detection_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+install(DIRECTORY src/
+  DESTINATION ${CATKIN_PACKAGE_PYTHON_DESTINATION}
+)
