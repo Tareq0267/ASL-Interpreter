@@ -1,4 +1,4 @@
-# Hand Detection and Text-to-Speech Project
+# ASL Interpreter in ROS
 
 This project is developed for the subject Autonomous Robot by Dr. Zati. The aim is to create a system that detects hand gestures using a webcam and provides audio feedback using text-to-speech.
 
