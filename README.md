@@ -108,7 +108,7 @@ During the integration process, compatibility issues with `cv_bridge` were encou
 
 ## Contributors
 
-1. Mehran Gharooni Khoshkehbar (S2014607)
+Mehran Gharooni Khoshkehbar (S2014607)
 Pendar Tabatabaeemoshiri (S2029817)
 Muhammad Tareq Adam Bin Ellias (U2001228)
 Muhammad Adam Malique bin Zainal (U2102866)
